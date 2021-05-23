@@ -1,3 +1,11 @@
+
+---
+title: "Not only JARs: Packaging java differently"
+date: 2021-03-14T21:44:08-08:00
+draft: false
+---
+
+
 ## Rough notes
 
 > A Module is a group of closely related packages and resources along with a new module descriptor file.
@@ -10,11 +18,6 @@ Module are higher up organizations constructs of packages and resources.
 
 jlink is a tool that generates a custom Java runtime image that contains only the platform modules that are required for a given application. https://openjdk.java.net/jeps/220
 
----
-title: "Not only JARs: Packaging java differently"
-date: 2021-03-14T21:44:08-08:00
-draft: false
----
 
 The traditional method of creating a Java artifact has been a JAR (Java Archive) file format. While this still remains the more prevalant way of doing it, recent Java enhancements have introduced alternatives. These alternatives seem to be created with the intent of being able to create artifacts in formats that are more ubiquitous with the platform they run on. This gives end users a more natural installation experience
 This means that we can install Java applications in formats such as `.exe` and `.msi` for Windows; `.deb` and `.rpm` for Linux; `pkg` and `dmg` for MacOS. One of the major benefits of this approach is that the end user does not need to perform additional steps of installing Java on the target machine.
