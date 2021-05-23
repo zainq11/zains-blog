@@ -1,4 +1,4 @@
-baseURL = "https://laughing-wing-160e4d.netlify.app"
+baseURL = "https://laughing-wing-160e4d.netlify.app/"
 languageCode = "en-us"
 title = "Zains blog"
 theme = "hyde"
